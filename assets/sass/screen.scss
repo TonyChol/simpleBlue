@@ -4,3 +4,38 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+
+$dropbox-color: #007ee5;
+
+a {
+    img {
+        width: 2em;
+    }
+}
+.main-header {
+	height: 110px;
+}
+
+.header-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid #E5E5E5;
+
+}
+
+.logo-area {
+    float: left;
+    padding-right: 5px;
+}
+.blog-title-area {
+	// float: left;
+}
+.page-title {
+	color: $dropbox-color;
+}
+.page-description {
+	color: $dropbox-color;
+}
+.main-header-content {
+	height: 3em;
+}
