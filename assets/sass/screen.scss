@@ -4,38 +4,94 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
-
+@import "compass/utilities/general/clearfix";
 $dropbox-color: #007ee5;
+$gray-color: #E5E5E5;
+body p {
+    position: relative;
+    min-height: 100%;
+    font: 300 100%/1.75 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', sans-serif;
+    color: #444;
+}
+
+header {
+    text-align: center;
+}
 
 a {
     img {
         width: 2em;
     }
+    text-decoration: inherit;
+    color: #007ee5;
 }
+
 .main-header {
-	height: 110px;
+    height: 4em;
+}
+
+.main-header-content {
+    height: 3em;
+    h1 {
+        text-align: center;
+    }
+    // @include clearfix;
 }
 
 .header-inner {
     max-width: 1000px;
     margin: 0 auto;
     border-bottom: 1px solid #E5E5E5;
-
 }
 
 .logo-area {
     float: left;
     padding-right: 5px;
 }
+
 .blog-title-area {
-	// float: left;
+    // float: left;
 }
+
 .page-title {
-	color: $dropbox-color;
+    color: $dropbox-color;
 }
+
 .page-description {
-	color: $dropbox-color;
+    color: $dropbox-color;
 }
-.main-header-content {
-	height: 3em;
+
+// .blog-content-area {
+//     max-width: 1000px;
+//     margin: 0 auto;
+// }
+.post-title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 0.67em;
+    a {
+        color: #007ee5;
+    }
+}
+
+article footer {
+    margin-bottom: 0.76em;
+}
+
+.circular-img {
+    border-radius: 100%;
+    float: left;
+}
+
+article {
+    padding: 1em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+article + article {
+    border-top: 1px dashed $gray-color;
+    margin-top: 3em;
+    padding-top: 3em;
 }
