@@ -3,10 +3,14 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+// @import "compass/reset";
 @import "compass/utilities/general/clearfix";
 $dropbox-color: #007ee5;
 $gray-color: #E5E5E5;
+body {
+    line-height: 1.7em;
+}
+
 body p {
     position: relative;
     min-height: 100%;
@@ -39,6 +43,7 @@ a {
 }
 
 .header-inner {
+    width: 90%;
     max-width: 1000px;
     margin: 0 auto;
     border-bottom: 1px solid #E5E5E5;
@@ -47,10 +52,6 @@ a {
 .logo-area {
     float: left;
     padding-right: 5px;
-}
-
-.blog-title-area {
-    // float: left;
 }
 
 .page-title {
@@ -79,19 +80,152 @@ article footer {
     margin-bottom: 0.76em;
 }
 
-.circular-img {
-    border-radius: 100%;
-    float: left;
-}
-
 article {
     padding: 1em;
+    width: 90%;
     max-width: 1000px;
     margin: 0 auto;
+    p {
+        font: 300 100%/1.75 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', sans-serif;
+        color: #444;
+    }
+    h2 {
+        font-size: 1.8em;
+        // padding-bottom: 0.5em;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 1.5em;
+        // padding-bottom: 0.5em;
+        font-weight: bold;
+    }
+    h4 {
+        font-size: 1em;
+        // padding-bottom: 0.5em;
+    }
+    a {
+        text-decoration: underline;
+        color: inherit;
+    }
+    a:hover {
+        text-decoration: underline;
+        color: $dropbox-color;
+    }
+    blockquote {
+        padding: 0 0 0 1em;
+        // reset this block's position
+        margin: 0;
+        border-left: 0.4em solid $dropbox-color;
+    }
+    img {
+        clear: both;
+        width: 90%;
+        max-width: 100%;
+        text-align: center;
+    }
+    pre {
+        padding: 16px;
+        overflow: auto;
+        font-size: 85%;
+        line-height: 1.45;
+        background-color: #f7f7f7;
+        border: 0;
+        border-radius: 3px;
+        code {
+            padding: 0;
+            margin: 0;
+            font-size: 100%;
+            white-space: pre;
+            background: transparent;
+            border: 0;
+        }
+    }
+    code {
+        padding: 0;
+        padding-top: .2em;
+        padding-bottom: .2em;
+        margin: 0;
+        font-size: 85%;
+        background-color: #f7f7f7;
+        border-radius: 3px;
+    }
 }
 
 article + article {
     border-top: 1px dashed $gray-color;
     margin-top: 3em;
-    padding-top: 3em;
+}
+
+nav {
+    display: block;
+}
+
+.pagination {
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    margin: 4rem auto;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    color: #9EABB3;
+    text-align: center;
+    a {
+        color: $dropbox-color;
+        transition: all 0.2s ease;
+    }
+    .older-posts,
+    .newer-posts {
+        position: absolute;
+        display: inline-block;
+        padding: 0px 15px;
+        border: #EEEEEE 1px solid;
+        text-decoration: none;
+        line-height: 2.5em;
+        border-radius: 4px;
+        transition: border ease 0.3s;
+    }
+    .older-posts {
+        right: 0;
+    }
+    .newer-posts {
+        left: 0;
+    }
+    .older-posts:hover,
+    .newer-posts:hover {
+        border: $dropbox-color 1px solid;
+    }
+    .page-number {
+        display: inline-block;
+        line-height: 2.5em;
+        padding: 2px 0;
+        min-width: 100px;
+    }
+}
+
+footer {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid $gray-color;
+    // text-align: center;
+    font-size: 0.8em;
+    color: #ccc;
+    a {
+        color: #ccc;
+        text-decoration: underline;
+    }
+    a:hover {
+        color: $dropbox-color;
+    }
+    .copyright {
+        float: left;
+        width: 45%;
+    }
+    .createdBy {
+        text-align: right;
+        float: right;
+        width: 45%;
+    }
 }
