@@ -202,6 +202,38 @@ nav {
     }
 }
 
+.read-next {
+	position: relative;
+    width: 90%;
+    max-width: 1000px;
+    margin: 4rem auto;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.read-next section.prev-post,
+section.next-post {
+    border: 1px solid $dropbox-color;
+    border-radius: 3px;
+}
+
+.prev-post {
+	position: relative;
+        display: inline-block;
+    text-align: left;
+    float: left;
+}
+
+.next-post {
+	position: relative;
+        display: inline-block;
+    text-align: right;
+    float: right;
+}
+
 footer {
     width: 90%;
     max-width: 1000px;
