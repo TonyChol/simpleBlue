@@ -8,9 +8,11 @@
 <article class="{{post_class}}">
     <header class="post-header">
         <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
-        {{author}}
-        {{tags prefix=" · "}}
-        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}"> · {{date format="DD MMMM YYYY"}}</time>
+        {{!-- {{author}} --}}
+        <div class="post-meta-data">
+            <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+            {{tags prefix=" · "}}
+        </div>
     </header>
         {{!-- {{#if author.image}}<figure class="circular-img"><img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" /></figure>{{/if}} --}}
     <section class="post-excerpt">
