@@ -127,12 +127,11 @@ article blockquote {
 /* line 117, ../sass/screen.scss */
 article img {
   clear: both;
-  max-width: 100%;
-  width: 120%;
+  width: 112%;
   max-width: none;
-  margin: 0 -10%;
+  margin: 0 -6%;
 }
-/* line 126, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 article pre {
   padding: 16px;
   overflow: auto;
@@ -142,7 +141,7 @@ article pre {
   border: 0;
   border-radius: 3px;
 }
-/* line 134, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 article pre code {
   padding: 0;
   margin: 0;
@@ -151,7 +150,7 @@ article pre code {
   background: transparent;
   border: 0;
 }
-/* line 143, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 article code {
   padding: 0;
   padding-top: .2em;
@@ -161,24 +160,24 @@ article code {
   background-color: #f7f7f7;
   border-radius: 3px;
 }
-/* line 152, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 article .post-meta-data {
   font-size: 0.8em;
   color: #999;
 }
 
-/* line 158, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 article + article {
   border-top: 1px dashed #E5E5E5;
   margin-top: 3em;
 }
 
-/* line 163, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 nav {
   display: block;
 }
 
-/* line 167, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 .pagination {
   position: relative;
   width: 90%;
@@ -189,12 +188,12 @@ nav {
   color: #9EABB3;
   text-align: center;
 }
-/* line 176, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 .pagination a {
   color: #007ee5;
   transition: all 0.2s ease;
 }
-/* line 180, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .pagination .older-posts,
 .pagination .newer-posts {
   position: absolute;
@@ -206,20 +205,20 @@ nav {
   border-radius: 4px;
   transition: border ease 0.3s;
 }
-/* line 191, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .pagination .older-posts {
   right: 0;
 }
-/* line 194, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .pagination .newer-posts {
   left: 0;
 }
-/* line 197, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 .pagination .older-posts:hover,
 .pagination .newer-posts:hover {
   border: #007ee5 1px solid;
 }
-/* line 201, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .pagination .page-number {
   display: inline-block;
   line-height: 2.5em;
@@ -227,7 +226,7 @@ nav {
   min-width: 100px;
 }
 
-/* line 209, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .read-next {
   position: relative;
   width: 90%;
@@ -240,14 +239,14 @@ nav {
   text-align: center;
 }
 
-/* line 221, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 .read-next section.prev-post,
 section.next-post {
   border: 1px solid #007ee5;
   border-radius: 3px;
 }
 
-/* line 227, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .prev-post {
   position: relative;
   display: inline-block;
@@ -255,7 +254,7 @@ section.next-post {
   float: left;
 }
 
-/* line 234, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 .next-post {
   position: relative;
   display: inline-block;
@@ -263,7 +262,7 @@ section.next-post {
   float: right;
 }
 
-/* line 241, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 footer {
   width: 90%;
   max-width: 1000px;
@@ -274,21 +273,21 @@ footer {
   font-size: 0.8em;
   color: #ccc;
 }
-/* line 251, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 footer a {
   color: #ccc;
   text-decoration: underline;
 }
-/* line 255, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 footer a:hover {
   color: #007ee5;
 }
-/* line 258, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 footer .copyright {
   float: left;
   width: 45%;
 }
-/* line 262, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 footer .createdBy {
   text-align: right;
   float: right;
