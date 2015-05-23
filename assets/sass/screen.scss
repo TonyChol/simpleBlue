@@ -7,6 +7,12 @@
 @import "compass/utilities/general/clearfix";
 $dropbox-color: #007ee5;
 $gray-color: #E5E5E5;
+html, body {
+    // forbid horizontal scroll
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     line-height: 1.7em;
 }
@@ -118,9 +124,9 @@ article {
         clear: both;
         // width: 90%;
         // 奇淫技巧
-        width: 112%;
+        width: 111%;
         max-width: none;
-        margin: 0 -6%;
+        margin: 0 -5.5%;
     }
     pre {
         padding: 16px;
@@ -149,7 +155,7 @@ article {
         border-radius: 3px;
     }
     .post-meta-data {
-        font-size: 0.8em;
+        font-size: 0.875em;
         color: #999;
     }
 }
@@ -161,6 +167,11 @@ article + article {
 
 nav {
     display: block;
+    a {
+        padding: 0 1px;
+        font-size: 0.875em;
+        line-height: 30px;
+    }
 }
 
 .pagination {
