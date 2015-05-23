@@ -25,7 +25,6 @@
 </head>
 <body class="{{body_class}} nav-closed">
 
-    {{!-- {{navigation}} --}}
 
     <div class="site-wrapper">
 
@@ -35,10 +34,11 @@
                 <h1 class="page-title">{{@blog.title}}</h1>
             </a>
             <nav>
+                {{!-- {{navigation}} --}}
                 {{navigation}}
             </nav>
         </header>
-        
+
         {{{body}}}
 
         <footer class="site-footer clearfix" role="contentinfo">
@@ -55,6 +55,12 @@
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
     <script src="{{asset "js/han.min.js"}}"></script>
-
+    {{! Mathjax configuration}}
+    <script type="text/javascript"     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">  
+        MathJax.Hub.Config({  
+            tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+    </script>  
 </body>
 </html>
