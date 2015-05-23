@@ -10,7 +10,11 @@ $gray-color: #E5E5E5;
 body {
     line-height: 1.7em;
 }
-
+h1.page-title {
+	font-size: 2em;
+	margin-top: 0.67em;
+	margin-bottom: 0.335em;
+}
 body p {
     position: relative;
     min-height: 100%;
@@ -30,19 +34,7 @@ a {
     color: #007ee5;
 }
 
-.main-header {
-    height: 4em;
-}
-
-.main-header-content {
-    height: 3em;
-    h1 {
-        text-align: center;
-    }
-    // @include clearfix;
-}
-
-.header-inner {
+header[role="banner"] {
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
@@ -106,6 +98,9 @@ article {
     a {
         text-decoration: underline;
         color: inherit;
+    }
+    h2.post-title a {
+    	text-decoration: none;
     }
     a:hover {
         text-decoration: underline;
