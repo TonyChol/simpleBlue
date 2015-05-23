@@ -10,11 +10,13 @@ $gray-color: #E5E5E5;
 body {
     line-height: 1.7em;
 }
+
 h1.page-title {
-	font-size: 2em;
-	margin-top: 0.67em;
-	margin-bottom: 0.335em;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.335em;
 }
+
 body p {
     position: relative;
     min-height: 100%;
@@ -100,7 +102,7 @@ article {
         color: inherit;
     }
     h2.post-title a {
-    	text-decoration: none;
+        text-decoration: none;
     }
     a:hover {
         text-decoration: underline;
@@ -114,9 +116,12 @@ article {
     }
     img {
         clear: both;
-        width: 90%;
+        // width: 90%;
         max-width: 100%;
-        text-align: center;
+        // text-align: center;
+        width: 120%;
+        max-width: none;
+        margin: 0 -10%;
     }
     pre {
         padding: 16px;
@@ -145,8 +150,8 @@ article {
         border-radius: 3px;
     }
     .post-meta-data {
-    	font-size: 0.8em;
-    	color: #999;
+        font-size: 0.8em;
+        color: #999;
     }
 }
 
@@ -202,7 +207,7 @@ nav {
 }
 
 .read-next {
-	position: relative;
+    position: relative;
     width: 90%;
     max-width: 1000px;
     margin: 4rem auto;
@@ -220,15 +225,15 @@ section.next-post {
 }
 
 .prev-post {
-	position: relative;
-        display: inline-block;
+    position: relative;
+    display: inline-block;
     text-align: left;
     float: left;
 }
 
 .next-post {
-	position: relative;
-        display: inline-block;
+    position: relative;
+    display: inline-block;
     text-align: right;
     float: right;
 }
