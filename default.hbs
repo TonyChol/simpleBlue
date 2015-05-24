@@ -21,7 +21,10 @@
     <link rel="stylesheet" href="{{asset "css/han.min.css"}}">
     {{!-- animate.css --}}
     <link rel="stylesheet" href="{{asset "css/animate.min.css"}}">
-
+    {{!-- RSS alternate --}}
+    <link rel="alternate" type="application/rss+xml" title="{{@blog.title}}" href="{{@blog.url}}/rss/">
+    {{!-- font-awesome.css --}}
+    <link rel="stylesheet" href="{{asset "css/font-awesome.css"}}">
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
@@ -34,7 +37,7 @@
         {{! Everything else gets inserted here }}
         <header role="banner">    
             <a href="{{@blog.url}}">
-                <h1 class="page-title animated fadeIn">{{@blog.title}}</h1>
+                <h1 class="page-title animated fadeIn">{{@blog.title}}</h1><i class="fa fa-weibo"></i>
             </a>
             <nav>
                 {{!-- {{navigation}} --}}
@@ -55,8 +58,6 @@
     {{ghost_foot}}
 
     {{! The main JavaScript file for Casper }}
-    <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
     <script src="{{asset "js/han.min.js"}}"></script>
     {{! Mathjax configuration}}
     <script type="text/javascript"     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
