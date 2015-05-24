@@ -24,7 +24,7 @@
     {{!-- RSS alternate --}}
     <link rel="alternate" type="application/rss+xml" title="{{@blog.title}}" href="{{@blog.url}}/rss/">
     {{!-- font-awesome.css --}}
-    <link rel="stylesheet" href="{{asset "css/font-awesome.css"}}">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
@@ -37,7 +37,7 @@
         {{! Everything else gets inserted here }}
         <header role="banner">    
             <a href="{{@blog.url}}">
-                <h1 class="page-title animated fadeIn">{{@blog.title}}</h1><i class="fa fa-weibo"></i>
+                <h1 class="page-title animated fadeIn">{{@blog.title}}</h1>
             </a>
             <nav>
                 {{!-- {{navigation}} --}}
