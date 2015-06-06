@@ -3,24 +3,25 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 10, ../sass/screen.scss */
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
 
-/* line 16, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 body {
   line-height: 1.7em;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 h1.page-title {
   font-size: 2em;
   margin-top: 0.67em;
   margin-bottom: 0.335em;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 body p {
   position: relative;
   min-height: 100%;
@@ -28,22 +29,22 @@ body p {
   color: #444;
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 header {
   text-align: center;
 }
 
-/* line 37, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 a {
   text-decoration: inherit;
   color: #007ee5;
 }
-/* line 38, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 a img {
   width: 2em;
 }
 
-/* line 45, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 header[role="banner"] {
   width: 90%;
   max-width: 1000px;
@@ -51,93 +52,92 @@ header[role="banner"] {
   border-bottom: 1px solid #E5E5E5;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .logo-area {
   float: left;
   padding-right: 5px;
 }
 
-/* line 57, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .page-title {
   color: #007ee5;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .page-description {
   color: #007ee5;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .post-title {
   text-align: center;
   font-size: 1.5em;
   font-weight: 400;
   margin-bottom: 0.67em;
 }
-/* line 74, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .post-title a {
   color: #007ee5;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 article footer {
   margin-bottom: 0.76em;
 }
 
-/* line 83, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 article {
   padding: 1em;
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
 }
-/* line 88, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 article p {
   font: 300 100%/1.75 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', sans-serif;
   color: #444;
 }
-/* line 92, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 article h2 {
   font-size: 1.8em;
   font-weight: bold;
 }
-/* line 97, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 article h3 {
   font-size: 1.5em;
   font-weight: bold;
 }
-/* line 102, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 article h4 {
   font-size: 1em;
 }
-/* line 106, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 article a {
   text-decoration: underline;
   color: inherit;
 }
-/* line 110, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 article h2.post-title a {
   text-decoration: none;
 }
-/* line 113, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 article a:hover {
   text-decoration: underline;
   color: #007ee5;
 }
-/* line 117, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 article blockquote {
   padding: 0 0 0 1em;
   margin: 0;
   border-left: 0.4em solid #007ee5;
 }
-/* line 123, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 article img {
   clear: both;
-  width: 111%;
-  max-width: none;
-  margin: 0 -5.5%;
+  max-width: 90%;
+  margin: 0 10%;
 }
-/* line 131, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 article pre {
   padding: 16px;
   overflow: auto;
@@ -147,7 +147,7 @@ article pre {
   border: 0;
   border-radius: 3px;
 }
-/* line 139, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 article pre code {
   padding: 0;
   margin: 0;
@@ -156,7 +156,7 @@ article pre code {
   background: transparent;
   border: 0;
 }
-/* line 148, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 article code {
   padding: 0;
   padding-top: .2em;
@@ -166,30 +166,30 @@ article code {
   background-color: #f7f7f7;
   border-radius: 3px;
 }
-/* line 157, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 article .post-meta-data {
   font-size: 0.875em;
   color: #999;
 }
 
-/* line 163, ../sass/screen.scss */
+/* line 167, ../sass/screen.scss */
 article + article {
   border-top: 1px dashed #E5E5E5;
   margin-top: 3em;
 }
 
-/* line 168, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 nav {
   display: block;
 }
-/* line 170, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 nav a {
   padding: 0 1px;
   font-size: 0.875em;
   line-height: 30px;
 }
 
-/* line 177, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 .pagination {
   position: relative;
   width: 90%;
@@ -200,12 +200,12 @@ nav a {
   color: #9EABB3;
   text-align: center;
 }
-/* line 186, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .pagination a {
   color: #007ee5;
   transition: all 0.2s ease;
 }
-/* line 190, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .pagination .older-posts,
 .pagination .newer-posts {
   position: absolute;
@@ -217,20 +217,21 @@ nav a {
   border-radius: 4px;
   transition: border ease 0.3s;
 }
-/* line 201, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 .pagination .older-posts {
   right: 0;
 }
-/* line 204, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .pagination .newer-posts {
   left: 0;
 }
-/* line 207, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .pagination .older-posts:hover,
 .pagination .newer-posts:hover {
-  border: #007ee5 1px solid;
+  background-color: #007ee5;
+  color: white;
 }
-/* line 211, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .pagination .page-number {
   display: inline-block;
   line-height: 2.5em;
@@ -238,7 +239,7 @@ nav a {
   min-width: 100px;
 }
 
-/* line 219, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 .read-next {
   position: relative;
   width: 90%;
@@ -251,14 +252,14 @@ nav a {
   text-align: center;
 }
 
-/* line 231, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 .read-next section.prev-post,
 section.next-post {
   border: 1px solid #007ee5;
   border-radius: 3px;
 }
 
-/* line 237, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 .prev-post {
   position: relative;
   display: inline-block;
@@ -266,7 +267,7 @@ section.next-post {
   float: left;
 }
 
-/* line 244, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 .next-post {
   position: relative;
   display: inline-block;
@@ -274,7 +275,7 @@ section.next-post {
   float: right;
 }
 
-/* line 251, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 footer {
   width: 90%;
   max-width: 1000px;
@@ -285,23 +286,68 @@ footer {
   font-size: 0.8em;
   color: #ccc;
 }
-/* line 261, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 footer a {
   color: #ccc;
   text-decoration: underline;
 }
-/* line 265, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 footer a:hover {
   color: #007ee5;
 }
-/* line 268, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 footer .copyright {
   float: left;
   width: 45%;
 }
-/* line 272, ../sass/screen.scss */
+/* line 278, ../sass/screen.scss */
 footer .createdBy {
   text-align: right;
   float: right;
   width: 45%;
+}
+
+/* ==========================================================================
+   12. Media Queries - Smaller than 500px
+   ========================================================================== */
+@media only screen and (max-width: 600px) {
+  /* line 289, ../sass/screen.scss */
+  footer {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 20px;
+    border-top: 1px solid #E5E5E5;
+    font-size: 0.8em;
+    color: #ccc;
+  }
+  /* line 298, ../sass/screen.scss */
+  footer a {
+    color: #ccc;
+    text-decoration: underline;
+  }
+  /* line 302, ../sass/screen.scss */
+  footer a:hover {
+    color: #007ee5;
+  }
+  /* line 305, ../sass/screen.scss */
+  footer .copyright {
+    float: left;
+    width: 100%;
+  }
+  /* line 309, ../sass/screen.scss */
+  footer .createdBy {
+    text-align: left;
+    float: left;
+    width: 100%;
+  }
+
+  /* line 316, ../sass/screen.scss */
+  article img {
+    clear: both;
+    width: 111%;
+    max-width: none;
+    margin: 0 -5.5%;
+  }
 }

@@ -7,7 +7,8 @@
 @import "compass/utilities/general/clearfix";
 $dropbox-color: #007ee5;
 $gray-color: #E5E5E5;
-html, body {
+html,
+body {
     // forbid horizontal scroll
     max-width: 100%;
     overflow-x: hidden;
@@ -124,9 +125,12 @@ article {
         clear: both;
         // width: 90%;
         // 奇淫技巧
-        width: 111%;
-        max-width: none;
-        margin: 0 -5.5%;
+        // 移动设备或者500px以内的屏幕宽度适用
+        // width: 111%;
+        // max-width: none;
+        // margin: 0 -5.5%;
+        max-width: 90%;
+        margin: 0 10%;
     }
     pre {
         padding: 16px;
@@ -206,7 +210,9 @@ nav {
     }
     .older-posts:hover,
     .newer-posts:hover {
-        border: $dropbox-color 1px solid;
+        // border: $dropbox-color 1px solid;
+        background-color: $dropbox-color;
+        color: white;
     }
     .page-number {
         display: inline-block;
@@ -273,5 +279,50 @@ footer {
         text-align: right;
         float: right;
         width: 45%;
+    }
+}
+/* ==========================================================================
+   12. Media Queries - Smaller than 500px
+   ========================================================================== */
+
+@media only screen and (max-width: 600px) {
+    footer {
+        width: 90%;
+        max-width: 1000px;
+        margin: 0 auto;
+        height: 40px;
+        line-height: 20px;
+        border-top: 1px solid $gray-color;
+        font-size: 0.8em;
+        color: #ccc;
+        a {
+            color: #ccc;
+            text-decoration: underline;
+        }
+        a:hover {
+            color: $dropbox-color;
+        }
+        .copyright {
+            float: left;
+            width: 100%;
+        }
+        .createdBy {
+            text-align: left;
+            float: left;
+            width: 100%;
+        }
+    }
+    article {
+        img {
+        clear: both;
+        // width: 90%;
+        // 奇淫技巧
+        // 移动设备或者500px以内的屏幕宽度适用
+        width: 111%;
+        max-width: none;
+        margin: 0 -5.5%;
+        // max-width: 90%;
+        // margin: 0 10%;
+    }
     }
 }
