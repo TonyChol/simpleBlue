@@ -137,7 +137,6 @@ article {
         overflow: auto;
         font-size: 85%;
         line-height: 1.45;
-        background-color: #f7f7f7;
         border: 0;
         border-radius: 3px;
         code {
@@ -285,7 +284,7 @@ footer {
    12. Media Queries - Smaller than 500px
    ========================================================================== */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
     footer {
         width: 90%;
         max-width: 1000px;
@@ -305,11 +304,13 @@ footer {
         .copyright {
             float: left;
             width: 100%;
+            padding-top: 0.5em;
         }
         .createdBy {
             text-align: left;
             float: left;
             width: 100%;
+            padding-bottom: 1em;
         }
     }
     article {

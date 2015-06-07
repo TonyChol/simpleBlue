@@ -143,11 +143,10 @@ article pre {
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: #f7f7f7;
   border: 0;
   border-radius: 3px;
 }
-/* line 143, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 article pre code {
   padding: 0;
   margin: 0;
@@ -156,7 +155,7 @@ article pre code {
   background: transparent;
   border: 0;
 }
-/* line 152, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 article code {
   padding: 0;
   padding-top: .2em;
@@ -166,30 +165,30 @@ article code {
   background-color: #f7f7f7;
   border-radius: 3px;
 }
-/* line 161, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 article .post-meta-data {
   font-size: 0.875em;
   color: #999;
 }
 
-/* line 167, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 article + article {
   border-top: 1px dashed #E5E5E5;
   margin-top: 3em;
 }
 
-/* line 172, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 nav {
   display: block;
 }
-/* line 174, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 nav a {
   padding: 0 1px;
   font-size: 0.875em;
   line-height: 30px;
 }
 
-/* line 181, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 .pagination {
   position: relative;
   width: 90%;
@@ -200,12 +199,12 @@ nav a {
   color: #9EABB3;
   text-align: center;
 }
-/* line 190, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .pagination a {
   color: #007ee5;
   transition: all 0.2s ease;
 }
-/* line 194, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .pagination .older-posts,
 .pagination .newer-posts {
   position: absolute;
@@ -217,21 +216,21 @@ nav a {
   border-radius: 4px;
   transition: border ease 0.3s;
 }
-/* line 205, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .pagination .older-posts {
   right: 0;
 }
-/* line 208, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .pagination .newer-posts {
   left: 0;
 }
-/* line 211, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 .pagination .older-posts:hover,
 .pagination .newer-posts:hover {
   background-color: #007ee5;
   color: white;
 }
-/* line 217, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .pagination .page-number {
   display: inline-block;
   line-height: 2.5em;
@@ -239,7 +238,7 @@ nav a {
   min-width: 100px;
 }
 
-/* line 225, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 .read-next {
   position: relative;
   width: 90%;
@@ -252,14 +251,14 @@ nav a {
   text-align: center;
 }
 
-/* line 237, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 .read-next section.prev-post,
 section.next-post {
   border: 1px solid #007ee5;
   border-radius: 3px;
 }
 
-/* line 243, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 .prev-post {
   position: relative;
   display: inline-block;
@@ -267,7 +266,7 @@ section.next-post {
   float: left;
 }
 
-/* line 250, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 .next-post {
   position: relative;
   display: inline-block;
@@ -275,7 +274,7 @@ section.next-post {
   float: right;
 }
 
-/* line 257, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
 footer {
   width: 90%;
   max-width: 1000px;
@@ -286,21 +285,21 @@ footer {
   font-size: 0.8em;
   color: #ccc;
 }
-/* line 267, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 footer a {
   color: #ccc;
   text-decoration: underline;
 }
-/* line 271, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 footer a:hover {
   color: #007ee5;
 }
-/* line 274, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 footer .copyright {
   float: left;
   width: 45%;
 }
-/* line 278, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 footer .createdBy {
   text-align: right;
   float: right;
@@ -310,8 +309,8 @@ footer .createdBy {
 /* ==========================================================================
    12. Media Queries - Smaller than 500px
    ========================================================================== */
-@media only screen and (max-width: 600px) {
-  /* line 289, ../sass/screen.scss */
+@media only screen and (max-width: 620px) {
+  /* line 288, ../sass/screen.scss */
   footer {
     width: 90%;
     max-width: 1000px;
@@ -322,28 +321,30 @@ footer .createdBy {
     font-size: 0.8em;
     color: #ccc;
   }
-  /* line 298, ../sass/screen.scss */
+  /* line 297, ../sass/screen.scss */
   footer a {
     color: #ccc;
     text-decoration: underline;
   }
-  /* line 302, ../sass/screen.scss */
+  /* line 301, ../sass/screen.scss */
   footer a:hover {
     color: #007ee5;
   }
-  /* line 305, ../sass/screen.scss */
+  /* line 304, ../sass/screen.scss */
   footer .copyright {
     float: left;
     width: 100%;
+    padding-top: 0.5em;
   }
   /* line 309, ../sass/screen.scss */
   footer .createdBy {
     text-align: left;
     float: left;
     width: 100%;
+    padding-bottom: 1em;
   }
 
-  /* line 316, ../sass/screen.scss */
+  /* line 317, ../sass/screen.scss */
   article img {
     clear: both;
     width: 111%;
