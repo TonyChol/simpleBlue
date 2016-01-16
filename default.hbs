@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="{{asset "css/han.min.css"}}">
     {{!-- animate.css --}}
     <link rel="stylesheet" href="{{asset "css/animate.min.css"}}">
+    <link rel="stylesheet" href="{{asset "css/normalize.css"}}">
     {{!-- RSS alternate --}}
     <link rel="alternate" type="application/rss+xml" title="{{@blog.title}}" href="{{@blog.url}}/rss/">
 
@@ -56,7 +57,9 @@
     {{ghost_foot}}
 
     {{! The main JavaScript file for SimpleBlue }}
-    <script src="{{asset "js/han.min.js"}}"></script>
+    <![if !IE]>
+        <script src="{{asset "js/han.min.js"}}"></script> 
+    <![endif]>
     {{! Mathjax configuration}}
     <script type="text/javascript"     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/x-mathjax-config">  
