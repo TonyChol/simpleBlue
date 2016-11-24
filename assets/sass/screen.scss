@@ -2,9 +2,6 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
-// @import "compass/reset";
-@import "compass/utilities/general/clearfix";
 $dropbox-color: #007ee5;
 $gray-color: #E5E5E5;
 html,
@@ -280,6 +277,32 @@ footer {
         width: 45%;
     }
 }
+
+/* ==========================================================================
+   2. Archive Static Page
+   ========================================================================== */
+.archive__section {
+  max-width: 45em; 
+  margin:0 auto; 
+  text-align: center;
+}
+
+.archive__header {
+    color: #007ee5;
+}
+
+.archive__title {
+    font-size: 1em;
+}
+
+.archive__title :hover {
+    text-decoration: underline;
+}
+
+.archive__title--url {
+    color: #62616E;
+}
+
 /* ==========================================================================
    12. Media Queries - Smaller than 500px
    ========================================================================== */
