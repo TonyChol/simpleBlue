@@ -24,7 +24,7 @@ h1.page-title {
 body p {
     position: relative;
     min-height: 100%;
-    font: 300 100%/1.75 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', sans-serif;
+    font: 300 100%/1.75 'PingFangSC-Regular', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', sans-serif;
     color: #444;
 }
 
@@ -84,7 +84,7 @@ article {
     max-width: 1000px;
     margin: 0 auto;
     p {
-        font: 300 100%/1.75 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', sans-serif;
+        font: 300 100%/1.75 'PingFangSC-Regular', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', sans-serif;
         color: #444;
     }
     h2 {
@@ -301,6 +301,7 @@ footer {
 
 .archive__title--url {
     color: #62616E;
+    font-family: 'PingFangSC-Regular', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', sans-serif;
 }
 
 /* ==========================================================================
