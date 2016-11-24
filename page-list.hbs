@@ -1,0 +1,22 @@
+{{!< default}}
+
+{{! This is a page template. A page outputs content just like any other post, and has all the same
+  attributes by default, but you can also customise it to behave differently if you prefer. }}
+
+{{! Everything inside the #post tags pulls data from the page }}
+{{#post}}
+
+<main class="content" role="main">
+<div class="archive-item" style="max-width: 45em; margin:0 auto; text-align: center">
+<h2 style="color: #007ee5">归档</h2>
+{{#get "posts" fields="url, title, slug"}}
+{{#foreach posts}}
+<div style="font-size: 11px;">
+<a class="post-title" style="color: #62616E" href="{{@blog.url}}/{{slug}}" >{{title}}</a>
+</div>
+{{/foreach}}
+{{/get}}
+</div>
+
+                                                                                                            </main>
+                                                                                                            {{/post}}
