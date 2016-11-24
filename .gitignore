@@ -1,6 +1,4 @@
 .sass-cache
-<<<<<<< HEAD
 *.css.map
-=======
-*.css.map
->>>>>>> 060923f594ad6f59a42d85df8604af372b0ac6a0
+node_modules
+npm-debug.log
