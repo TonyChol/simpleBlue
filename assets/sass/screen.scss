@@ -293,10 +293,12 @@ footer {
 
 .archive__title {
     font-size: 1em;
+
+    text-decoration: underline;
 }
 
 .archive__title :hover {
-    text-decoration: underline;
+    color: #007ee5;
 }
 
 .archive__title--url {
